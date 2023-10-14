@@ -1,9 +1,9 @@
-# Ex.No.1---Data-Preprocessing
+# Ex.No:1-Data-Preprocessing
 ## AIM:
 
 To perform Data preprocessing in a data set downloaded from Kaggle
 
-##REQUIPMENTS REQUIRED:
+## REQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
@@ -24,18 +24,99 @@ Another aspect is that the data set should be formatted in such a way that more 
 
 
 ## ALGORITHM:
-Importing the libraries
-Importing the dataset
-Taking care of missing data
-Encoding categorical data
-Normalizing the data
-Splitting the data into test and train
+## Step 1:
+Importing the libraries.
+
+## Step 2:
+Importing the dataset.
+
+## Step 3:
+Taking care of missing data.
+
+## Step 4:
+Encoding categorical data.
+
+## Step 5:
+Normalizing the data.
+
+## Step 6:
+Splitting the data into test and train.
+
+## Step 7:
+End the program.
 
 ## PROGRAM:
-/Write your code here/
+## Developed By:B.Pavizhi
+## Register Number:212221230077
+```
+import pandas as pd
+
+df=pd.read_csv("/content/Churn_Modelling.csv")
+
+df.head()
+
+df.isnull().sum()
+
+df.drop(["RowNumber","Age","Gender","Geography","Surname"],inplace=True,axis=1)
+
+print(df)
+
+x=df.iloc[:,:-1].values
+
+y=df.iloc[:,-1].values
+
+print(x)
+
+print(y)
+
+from sklearn.preprocessing import MinMaxScaler
+
+scaler = MinMaxScaler()
+
+df1 = pd.DataFrame(scaler.fit_transform(df))
+
+print(df1)
+
+from sklearn.model_selection import train_test_split
+
+xtrain,ytrain,xtest,ytest=train_test_split(x,y,test_size=0.2,random_state=2)
+
+print(xtrain)
+
+print(len(xtrain))
+
+print(xtest)
+
+print(len(xtest))
+
+from sklearn.preprocessing import StandardScaler
+
+sc = StandardScaler()
+
+df1 = sc.fit_transform(df)
+
+print(df1)
+```
 
 ## OUTPUT:
-/ Show the result/
+## df.head() :
+![](./1.png)
+## df.isnull().sum() :
+![](./2.png)
+## df value :
+![](./3.png)
+## VALUES OF INPUT AND OUTPUT DATA ON VAR X AND Y :
+![](./4.png)
+## NORMALIZING DATA:
+![](./5.png)
+## X_TRAIN AND Y_TRAIN VALUES :
+![](./6.png)
+## X AND Y VALUES :
+![](./71.png)
+## X_TEST AND Y_TEST VALUES :
+![](./8.png)
 
-## RESULT
-/Type your result here/
+
+## RESULT:
+Thus,the program to perform Data preprocessing in a data set downloaded from Kaggle is implemented successfully .
+
