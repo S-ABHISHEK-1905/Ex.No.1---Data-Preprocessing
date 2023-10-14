@@ -100,21 +100,29 @@ print(df1)
 
 ## OUTPUT:
 ## df.head() :
-![](1.png)
+![1](https://github.com/pavizhi/Ex.No.1---Data-Preprocessing/assets/95067176/00a680e7-e976-4243-aba6-55690de8c395)
+
 ## df.isnull().sum() :
-![](2.png)
+![2](https://github.com/pavizhi/Ex.No.1---Data-Preprocessing/assets/95067176/b55e491d-24b1-4cf4-a0f5-c1ef489c7e09)
+
 ## df value :
-![](3.png)
+![3](https://github.com/pavizhi/Ex.No.1---Data-Preprocessing/assets/95067176/24dcda4c-f1d0-4ea2-948a-a8c4b6f81981)
+
 ## VALUES OF INPUT AND OUTPUT DATA ON VAR X AND Y :
-![](4.png)
+![4](https://github.com/pavizhi/Ex.No.1---Data-Preprocessing/assets/95067176/40468c90-61ae-476e-bb4b-d47148a63d7e)
+
 ## NORMALIZING DATA:
-![](5.png)
+![5](https://github.com/pavizhi/Ex.No.1---Data-Preprocessing/assets/95067176/5fe3f3ac-9dcb-49e3-a58d-8e65976c0a98)
+
 ## X_TRAIN AND Y_TRAIN VALUES :
-![](6.png)
+![6](https://github.com/pavizhi/Ex.No.1---Data-Preprocessing/assets/95067176/a0234a7a-b907-45e4-870d-a5d1bb6c1991)
+
 ## X AND Y VALUES :
-![](71.png)
+![71](https://github.com/pavizhi/Ex.No.1---Data-Preprocessing/assets/95067176/c7a23d5f-9d15-4b41-a53f-72bebb95fcf5)
+
 ## X_TEST AND Y_TEST VALUES :
-![](8.png)
+![8](https://github.com/pavizhi/Ex.No.1---Data-Preprocessing/assets/95067176/fefa7d1d-1e5c-41aa-9447-f6d9e8d00e4d)
+
 
 
 ## RESULT:
