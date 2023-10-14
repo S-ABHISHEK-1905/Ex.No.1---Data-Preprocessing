@@ -100,21 +100,21 @@ print(df1)
 
 ## OUTPUT:
 ## df.head() :
-![](./1.png)
+![](1.png)
 ## df.isnull().sum() :
-![](./2.png)
+![](2.png)
 ## df value :
-![](./3.png)
+![](3.png)
 ## VALUES OF INPUT AND OUTPUT DATA ON VAR X AND Y :
-![](./4.png)
+![](4.png)
 ## NORMALIZING DATA:
-![](./5.png)
+![](5.png)
 ## X_TRAIN AND Y_TRAIN VALUES :
-![](./6.png)
+![](6.png)
 ## X AND Y VALUES :
-![](./71.png)
+![](71.png)
 ## X_TEST AND Y_TEST VALUES :
-![](./8.png)
+![](8.png)
 
 
 ## RESULT:
