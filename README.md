@@ -46,8 +46,8 @@ Splitting the data into test and train.
 End the program.
 
 ## PROGRAM:
-## Developed By:B.Pavizhi
-## Register Number:212221230077
+## Developed By:S.ABHISHEK
+## Register Number:212221230002
 ```
 import pandas as pd
 
